@@ -1,0 +1,48 @@
+/* Other rules */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    /* width: 500px; */
+    /* background-color: yellow; */
+}
+.fields {
+    width: 300px;
+    /* background-color: orange; */
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: lightgrey 1px solid;
+    border-radius: 10px;
+    background-color: rgb(240, 236, 236);
+    color: lightgray;
+}
+
+h2 {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.submit {
+    margin-top: 50px;
+    background-color: rgb(92, 72, 211);
+}
+
+.hidden {
+    display: none;
+}
+
+.result {
+    background-color: yellow;
+}
